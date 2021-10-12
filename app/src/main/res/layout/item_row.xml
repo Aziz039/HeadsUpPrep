@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cardView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10pt"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/tv_taboo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="8pt"
+            android:textColor="@color/black"
+            android:text="Taboo1" />
+
+        <TextView
+            android:id="@+id/tv_taboo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="8pt"
+            android:textColor="@color/black"
+            android:text="Taboo2" />
+
+        <TextView
+            android:id="@+id/tv_taboo3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="8pt"
+            android:textColor="@color/black"
+            android:text="Taboo3" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
